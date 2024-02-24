@@ -1,0 +1,38 @@
+.input-style {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .submit-btn {
+        padding: 16px 40px;
+        font-size: 1rem;
+        border: none;
+        font-weight: bold;
+    }
+
+    .submit-btn:hover {
+        background-color: #EB3054;
+        color: #ffffff;
+        border-radius: 4px;
+        transition: 0.4s ease-out;
+    }
+
+}
+
+
+
+
+.news-box {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-between;
+    row-gap: 30px;
+}

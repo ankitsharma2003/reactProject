@@ -1,0 +1,56 @@
+.Footer {
+    background-color: #9B1F3C;
+
+    .footer-box {
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .first-footer {
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        .mid-box {
+
+            .list-box {
+                list-style: none;
+                cursor: pointer;
+                line-height: 1.5;
+                color: white;
+            }
+
+            .list-box:hover {
+                text-decoration: underline;
+                transition: 0.9 ease-out;
+                color: #ffffff78;
+            }
+
+            .list-box:active {
+                color: rgb(114, 126, 9);
+            }
+        }
+
+        .rigth-box {
+
+            .list-boxs {
+                list-style: none;
+                cursor: pointer;
+                line-height: 1.6;
+                color: white;
+            }
+
+            .list-boxs:hover {
+                text-decoration: underline;
+                transition: 0.9 ease-out;
+                color: #ffffff78;
+            }
+
+            .list-boxs:active {
+                color: rgb(114, 126, 9);
+            }
+        }
+
+    }
+}

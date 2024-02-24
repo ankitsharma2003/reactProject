@@ -1,0 +1,36 @@
+.NewsApp {
+
+    margin-top: 30px;
+
+    .newsapp-box {
+        border: 1px solid black;
+        margin-bottom: 60px;
+        border-radius: 4px;
+        height: 600px;
+        overflow: hidden;
+
+        .img-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.3rem;
+        }
+
+        p {
+            text-align: center;
+            margin-block: 30px;
+        }
+
+
+    }
+
+}

@@ -1,0 +1,36 @@
+.Model {
+    background-color: #111111;
+
+    .img-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .img-style {
+            width: 95vw;
+            border-radius: 4px;
+        }
+    }
+
+    .content {
+        margin-top: 80px;
+
+        .heading {
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 6rem;
+            line-height: 1.2;
+            word-spacing: -9px;
+        }
+
+        .para-text {
+            text-align: center;
+            color: #A0A0A0;
+            margin-top: 30px;
+            font-size: 2.4rem;
+            font-weight: 100;
+            padding-inline: 85px;
+            padding-bottom: 40px;
+        }
+    }
+}

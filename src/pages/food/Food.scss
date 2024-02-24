@@ -1,0 +1,30 @@
+.Food {
+    background-color: #111111;
+    color: white;
+
+    .protect-box {
+        width: 400px;
+        padding: 100px;
+
+        .img-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+
+
+            img {
+                width: 570px;
+            }
+
+            .heading-text {
+                font-size: 4rem;
+                color: #FAFAFA;
+
+                .color-text {
+                    color: #0095D5;
+                }
+            }
+        }
+    }
+}

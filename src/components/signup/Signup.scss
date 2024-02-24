@@ -1,0 +1,61 @@
+.Signup {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+
+
+    .signup-box {
+        padding: 30px;
+        background-color: #F2F2F2;
+        width: 380px;
+        height: 350px;
+        color: #F2F2F2;
+        border-radius: 6px;
+
+        .heading {
+            text-align: center;
+            font-size: 2rem;
+            color: #111111;
+        }
+
+        .para-text {
+            color: #666666;
+            text-align: center;
+            margin-top: 14px;
+        }
+
+        .full-name {
+            display: flex;
+            margin-top: 15px;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            background-color: #F2F2F2;
+        }
+
+        .button {
+            margin-top: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: aqua;
+            transition: 0.5s ease-out;
+        }
+
+        .footer-text {
+            color: #666666;
+            font-size: 0.7rem;
+            margin-top: 10px;
+        }
+
+    }
+}
